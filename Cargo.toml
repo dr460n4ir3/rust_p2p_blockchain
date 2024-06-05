@@ -1,0 +1,9 @@
+[package]
+name = "rust_p2p_blockchain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+scrypt = "0.10"
+tokio = { version = "1", features = ["full"] }
+hex = "0.4"
